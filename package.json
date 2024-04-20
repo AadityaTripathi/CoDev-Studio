@@ -4,8 +4,8 @@
   "type": "module",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build && npm run serverprod",
+    "dev": "npm run serverprod",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "serverdev": "nodemon server.js",
