@@ -4,6 +4,8 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    console.log("REACT_APP_BACKEND_URL", process.env.REACT_APP_BACKEND_URL);
+
     const navigate = useNavigate();
     const [roomID, setroomID] = useState("");
     const [username, setusername] = useState("");

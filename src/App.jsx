@@ -5,7 +5,6 @@ import Home from './pages/Home'
 import Editorpage from './pages/Editorpage'
 import { Toaster } from "react-hot-toast";
 function App() {
-  
   return (
     <>
       <div>
